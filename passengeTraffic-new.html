@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>客运现状</title>
+		<!--style-->
+    	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	</head>
+	<body>
+		<div class="passengeTraffic">
+			<div class="ptTop" style="height: 590px;">
+				<div class="topLeft">
+					<div class="map" id="" style="height: 500px;overflow: hidden;">
+						<div id="mapc" style="width:1100px;height: 1100px;">
+							
+						</div>
+					</div>
+					<div class="leftTab">
+						<ul>
+							<li class="btn">
+								<div>经营企业</div>
+								<div>656</div>
+							</li>
+							<li class="btn">
+								<div>客运班车</div>
+								<div>15,562</div>
+							</li>
+							<li class="btn">
+								<div>从业资格</div>
+								<div>110,088</div>
+							</li>
+							<li class="btn btnClick">
+								<div>站场</div>
+								<div>42,444</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="topRight">
+					<div class="topRightTop">
+						<div class="header">客运发展趋势变化</div>
+						<div class="bar" id="bar" style="height: 200px;"></div>
+						
+					</div>
+					<div class="topRightBottom">
+						<div class="header">站场</div>
+						<div class="foot">
+							<div class="box">
+								<div>实名制客运站</div>
+								<div>122<label>个</label></div>
+							</div>
+							<div class="box">
+								<div>港湾式停靠站</div>
+								<div>41,613<label>个</label></div>
+							</div>
+						</div>
+						<div class="bir" id="pie" style="height: 260px;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="ptFoot">
+				<div class="footLeft">
+					<div class="leftBox leftBoxActive">
+						<div class="top">标志牌</div>
+						<div class="conRow">
+							<span>包车标志牌</span>
+							<span>8,130<label>个</label></span>
+						</div>
+						<div class="conRow">
+							<span>包车标志牌</span>
+							<span>8,130<label>个</label></span>
+						</div>
+					</div>
+					<div class="leftBox2">省际班车</div>
+					<div class="leftBox2">省际班车</div>
+				</div>
+				<div class="footRight">
+					<div class="rightBox">
+						<div class="header">标志牌占比</div>
+						<div class="ring" id="ringBox" style="height: 230px;"></div>
+					</div>
+					<div class="rightBox">
+						<div class="header">班车标志牌</div>
+						<div class="ring" id="ringBox2" style="height: 230px;"></div>
+					</div>
+					<div class="rightBox">
+						<div class="header">包车标准牌</div>
+						<div class="ring" id="ringBox3" style="height: 230px;"></div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+	    <!--echart-map-->
+	    <script type="text/javascript" src="js/echart/echarts.min.js" ></script>
+		<script type="text/javascript" src="js/project/passengeTraffic/china.js" ></script>
+		<script type="text/javascript" src="js/project/passengeTrafficMap.js" ></script>
+		<!--top-left-tab-->
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script>
+	    	$(".leftTab ul li").click(function(){
+				$(".leftTab ul li").eq($(this).index()).addClass("btnClick").siblings().removeClass('btnClick');
+			})
+	    </script>
+	    <!--echart-bar-pie-->
+	    <script type="text/javascript" src="js/echart/echarts.js" ></script>
+	    <script type="text/javascript" src="js/require/requirejs.js" defer async="true" ></script>
+	    <script type="text/javascript" src="js/project/passengeTraffic.js" ></script>
+	</body>
+</html>

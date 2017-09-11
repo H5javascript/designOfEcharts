@@ -1,0 +1,895 @@
+html body {
+  background-color: #15181b;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+html body .indOver .title {
+  font-family: "microsoft yahei";
+  font-size: 56px;
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+html body .indOver .echart {
+  width: 100%;
+  text-align: center;
+}
+html body .indOver .echart .block {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+html body .indOver .echart .block .style {
+  margin: 0 auto;
+  height: 400px;
+}
+html body .indOver .echart .block .echTit {
+  color: #fff;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+html body .newEnergyVehicle .title {
+  font-family: "microsoft yahei";
+  font-size: 56px;
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+html body .newEnergyVehicle .block {
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+html body .rentalTopics .title {
+  font-family: "microsoft yahei";
+  font-size: 56px;
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+html body .rentalTopics .echart .block {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+html body .administrativePenalty .title {
+  font-family: "microsoft yahei";
+  font-size: 56px;
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+html body .administrativePenalty .echart {
+  width: 100%;
+  text-align: center;
+}
+html body .administrativePenalty .echart .block:first-child {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  text-align: center;
+}
+html body .administrativePenalty .echart .block:first-child .leftBox {
+  width: 300px;
+  height: 301px;
+  line-height: 280px;
+  background: url(../img/administrativePenalty.png) no-repeat center;
+  margin: 60px auto 50px auto;
+  font-size: 60px;
+  color: #0ed258;
+}
+html body .administrativePenalty .echart .block:first-child div:last-child {
+  font-size: 30px;
+}
+html body .administrativePenalty .block:last-child {
+  display: inline-block;
+  width: 55%;
+  text-align: left;
+}
+html body .administrativePenalty .block:last-child ul {
+  margin: 0 0 0 10%;
+  padding: 0;
+  list-style: none;
+  width: 50%;
+}
+html body .administrativePenalty .block:last-child ul li:first-child {
+  padding: 0;
+}
+html body .administrativePenalty .block:last-child ul li {
+  width: 100%;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 18px 10px;
+  margin-bottom: 40px;
+}
+html body .administrativePenalty .block:last-child ul li .size35 {
+  font-size: 35px;
+}
+html body .administrativePenalty .block:last-child ul li .size30 {
+  font-size: 30px;
+}
+html body .administrativePenalty .block:last-child ul li .size50 {
+  font-size: 50px;
+}
+html body .administrativePenalty .block:last-child ul li .red {
+  color: #e31a3e;
+}
+html body .administrativePenalty .block:last-child ul li .mon {
+  margin: 0 10px 0 20px;
+}
+html body .administrativePenalty .block:last-child ul li table {
+  width: 100%;
+  text-align: center;
+}
+html body .administrativePenalty .block:last-child ul li table td:first-child {
+  font-size: 35px;
+  font-weight: bold;
+}
+html body .administrativePenalty .block:last-child ul li table td:nth-child(2) {
+  font-size: 25px;
+}
+html body .administrativePenalty .block:last-child ul li table td:last-child {
+  font-size: 25px;
+  text-align: left;
+}
+html body .administrativePenalty .block:last-child ul .bgred {
+  background-color: #e31a3e;
+}
+html body .administrativePenalty .block:last-child ul .bgorg {
+  background-color: #ff8523;
+}
+html body .administrativePenalty .block:last-child ul .bgblue {
+  background-color: #2378e2;
+}
+html body .administrativeLicensing .title {
+  font-family: "microsoft yahei";
+  font-size: 56px;
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+html body .administrativeLicensing .echart {
+  width: 100%;
+  text-align: center;
+}
+html body .administrativeLicensing .echart .block:first-child {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  text-align: center;
+}
+html body .administrativeLicensing .echart .block:first-child .leftBox {
+  width: 100%;
+  height: 470px;
+}
+html body .administrativeLicensing .echart .block:first-child div:last-child {
+  font-size: 30px;
+}
+html body .administrativeLicensing .block:last-child {
+  display: inline-block;
+  width: 55%;
+  text-align: left;
+}
+html body .administrativeLicensing .block:last-child ul {
+  margin: 8% 0 0 15%;
+  padding: 0;
+  list-style: none;
+  width: 55%;
+}
+html body .administrativeLicensing .block:last-child ul li {
+  width: 100%;
+  margin-bottom: 40px;
+}
+html body .administrativeLicensing .block:last-child ul li table {
+  width: 100%;
+  text-align: center;
+  border-bottom-left-radius: 40px;
+}
+html body .administrativeLicensing .block:last-child ul li table td:first-child {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 18px 10px;
+}
+html body .administrativeLicensing .block:last-child ul li table td:nth-child(2) {
+  font-size: 25px;
+  padding: 18px 10px;
+}
+html body .administrativeLicensing .block:last-child ul li table td:last-child {
+  font-size: 25px;
+  text-align: left;
+  padding: 18px 10px;
+}
+html body .administrativeLicensing .block:last-child .bgred {
+  background-color: #e31a3e;
+}
+html body .administrativeLicensing .block:last-child .bgorg {
+  background-color: #ff8523;
+}
+html body .administrativeLicensing .block:last-child .bgblue {
+  background-color: #2378e2;
+}
+html body .administrativeLicensing .block:last-child .bgDred {
+  background-color: #ba1a36;
+}
+html body .administrativeLicensing .block:last-child .bgDorg {
+  background-color: #da6e18;
+}
+html body .administrativeLicensing .block:last-child .bgDblue {
+  background-color: #185eb6;
+}
+html body .passengerTransportation .title {
+  font-family: "microsoft yahei";
+  font-size: 56px;
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+html body .passengerTransportation .echart {
+  width: 100%;
+  text-align: center;
+}
+html body .passengerTransportation .echart .block {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+html body .passengerTransportation .echart .block .style {
+  margin: 0 auto;
+  height: 350px;
+}
+html body .passengerTransportation .echart .block .style img {
+  margin: 20% auto 0 auto;
+  width: 60%;
+}
+html body .passengerTransportation .echart .block .echTit {
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+html body .passengerTransportation .echart .block .echSubTit {
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight: bold;
+}
+html body .passengerTransportation .echart .block .org {
+  color: #FF8523;
+}
+html body .passengerTransportation .echart .block .green {
+  color: #14a734;
+}
+html body .passengerTransportation .echart .block .red {
+  color: #af052b;
+}
+html body .passengerTransportation .echart .block .blue {
+  color: #1078b5;
+}
+html body .passengerTransportation .echart .block .purple {
+  color: #890cb5;
+}
+html body .DrivingTraining .title {
+  font-family: "microsoft yahei";
+  font-size: 56px;
+  width: 100%;
+  margin: 80px auto;
+  text-align: center;
+}
+html body .DrivingTraining .echart {
+  width: 100%;
+}
+html body .DrivingTraining .echart .row {
+  border-bottom: 1px solid #2c2c30;
+  width: 90%;
+  margin: 0 auto;
+}
+html body .DrivingTraining .echart .row .block {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+html body .DrivingTraining .echart .row .block .img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  margin-right: 8%;
+  text-align: right;
+}
+html body .DrivingTraining .echart .row .block .img img {
+  width: 60%;
+  float: right;
+}
+html body .DrivingTraining .echart .row .block .text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+}
+html body .DrivingTraining .echart .row .block .text .echTit {
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+html body .DrivingTraining .echart .row .block .text .echSubTit {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+}
+html body .DrivingTraining .echart .row .block .studentNum {
+  width: 45%;
+}
+html body .DrivingTraining .echart .row .block .studentNum .echTit {
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+  text-align: right;
+  margin-top: 30px;
+}
+html body .DrivingTraining .echart .row .block .lcText .echTit {
+  padding-left: 19%;
+  display: inline-block;
+  width: 34%;
+  vertical-align: middle;
+  font-size: 40px;
+}
+html body .DrivingTraining .echart .row .block .lcText .echSubTit {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+}
+html body .DrivingTraining .echart .row .block .lcText:first-child {
+  margin-bottom: 50px;
+}
+html body .DrivingTraining .echart .row .block:first-child {
+  width: 50%;
+}
+html body .DrivingTraining .echart .row .block:last-child {
+  width: 40%;
+}
+html body .DrivingTraining .echart .row .block:last-child .img img {
+  width: 75%;
+}
+html body .DrivingTraining .echart .row:first-child {
+  padding-bottom: 30px;
+}
+html body .DrivingTraining .echart .row:last-child {
+  border-bottom: none;
+  padding-top: 30px;
+}
+html body .DrivingTraining .echart .org {
+  color: #FF8523;
+}
+html body .DrivingTraining .echart .green {
+  color: #14a734;
+}
+html body .DrivingTraining .echart .red {
+  color: #af052b;
+}
+html body .DrivingTraining .echart .blue {
+  color: #1078b5;
+}
+html body .DrivingTraining .echart .purple {
+  color: #890cb5;
+}
+html body .industryStatus {
+  font-family: "microsoft yahei";
+  padding: 20px 5px 10px 20px;
+  background-color: #06101c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+html body .industryStatus .indStrTop {
+  width: 100%;
+  margin-bottom: 20px;
+  clear: both;
+  overflow: hidden;
+}
+html body .industryStatus .indStrTop .indStrTopLeft {
+  width: 20%;
+  float: left;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox {
+  margin-bottom: 10px;
+  background-color: #0c223d;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxHead {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #07b2f2;
+  background-color: #113058;
+  background: #113058 url(../img/boxHead.png) no-repeat center;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxCon .boxConHea {
+  border-bottom: 1px solid #1c4c8d;
+  text-align: center;
+  padding: 8px 0;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxCon .boxConHea .left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 58%;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxCon .boxConHea .left label:first-child {
+  font-size: 25px;
+  color: #48c2f8;
+  font-weight: 600;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxCon .boxConHea .left label:last-child {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 5px;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxCon .boxConHea .right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  font-size: 14px;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxCon .boxConFoot table {
+  width: 100%;
+  padding: 10px 0;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxCon .boxConFoot table tr:first-child td:first-child {
+  font-weight: 600;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxCon .boxConFoot table td {
+  text-align: center;
+  font-size: 14px;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxFoot {
+  width: 100%;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxFoot table {
+  width: 100%;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxFoot table tr:first-child td {
+  background-color: #0f294b;
+  color: #2488da;
+  font-size: 14px;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox .boxFoot table td {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #6195c4;
+  border: none;
+  border-collapse: collapse;
+}
+html body .industryStatus .indStrTop .indStrTopLeft .leftTopBox:last-child {
+  margin-bottom: 0;
+}
+html body .industryStatus .indStrTop .indStrTopRight {
+  width: 78%;
+  float: left;
+}
+html body .industryStatus .indStrTop .indStrTopRight .tipName {
+  font-size: 18px;
+}
+html body .industryStatus .indStrTop .indStrTopRight .tipBlue {
+  font-size: 16px;
+  color: #48c2f8;
+  font-weight: 600;
+  margin-top: 8px;
+}
+html body .industryStatus .indStrTop .indStrTopRight .tipBok {
+  width: 100px;
+  float: left;
+}
+html body .industryStatus .indStrTop .indStrTopRight .tipBok:last-child {
+  margin-left: 10px;
+}
+html body .industryStatus .indStrTop .indStrTopRight .tipTable {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+html body .industryStatus .indStrTop .indStrTopRight .tipTable td {
+  text-align: center;
+}
+html body .industryStatus .indStrTop .red {
+  color: #c31855;
+}
+html body .industryStatus .indStrTop .green {
+  color: #06e287;
+}
+html body .industryStatus .indStrTop .org {
+  color: #ff5f27;
+}
+html body .industryStatus .indStrTop .white {
+  color: #fff;
+}
+html body .industryStatus .indStrTop .reseda {
+  color: #b8daf5;
+}
+html body .industryStatus .indStrFoot {
+  width: 100%;
+}
+html body .industryStatus .indStrFoot .indStrFootLeft {
+  width: 48%;
+  float: left;
+  border: 1px solid #12c9f8;
+  border-radius: 5px;
+}
+html body .industryStatus .indStrFoot .indStrFootLeft .footHea {
+  font-size: 30px;
+  color: #b8daf5;
+  font-size: 22px;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+html body .industryStatus .indStrFoot .indStrFootLeft .footHea .line {
+  width: 80%;
+  height: 1px;
+  margin-top: 8px;
+  background: -webkit-gradient(linear, 24% 100%, 64% 100%, from(#07A5E1), to(#061525));
+}
+html body .industryStatus .indStrFoot .indStrFootLeft .echart {
+  width: 100%;
+  height: 240px;
+}
+html body .industryStatus .indStrFoot .indStrFootRight {
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+  border: 1px solid #12c9f8;
+  border-radius: 5px;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .footHea {
+  font-size: 30px;
+  color: #b8daf5;
+  font-size: 22px;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .footHea .title .tabBut {
+  width: 160px;
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+  cursor: pointer;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .footHea .title .tabBut .btnLeft {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: #07b2f2;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .footHea .title .tabBut .btnRight {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: 1px solid #07b2f2;
+  color: #07b2f2;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  width: 78px;
+  height: 28px;
+  line-height: 28px;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .footHea .line {
+  width: 80%;
+  height: 1px;
+  margin-top: 8px;
+  background: -webkit-gradient(linear, 24% 100%, 64% 100%, from(#07A5E1), to(#061525));
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart {
+  width: 100%;
+  height: 200px;
+  padding-top: 40px;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox .img {
+  font-size: 22px;
+  width: 120px;
+  height: 120px;
+  margin: 10px auto 0 auto;
+  line-height: 120px;
+  font-weight: 600;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox p {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #afd0ea;
+  margin: 18px 0 0 0;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox .bgblueLinhei {
+  line-height: 170px;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox .bggreen {
+  background: url(../img/round-green.png) no-repeat center;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox .bgblue {
+  background: url(../img/round-blue.png) no-repeat center;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox .bgred {
+  background: url(../img/round-red.png) no-repeat center;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox .white {
+  color: #fff;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox .blue {
+  color: #07b2f2;
+}
+html body .industryStatus .indStrFoot .indStrFootRight .echart .echBox .red {
+  color: #f42144;
+}
+html body .passengeTraffic {
+  font-family: "microsoft yahei";
+  padding: 20px 5px 10px 20px;
+  background-color: #06101c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+html body .passengeTraffic .ptTop {
+  width: 100%;
+  clear: both;
+}
+html body .passengeTraffic .ptTop .topLeft {
+  width: 50%;
+  float: left;
+}
+html body .passengeTraffic .ptTop .topLeft .map {
+  width: 100%;
+}
+html body .passengeTraffic .ptTop .topLeft .map .tipName {
+  font-size: 16px;
+  color: #b5d7ea;
+}
+html body .passengeTraffic .ptTop .topLeft .map .tipBlue {
+  font-size: 12px;
+  color: #b5d7ea;
+}
+html body .passengeTraffic .ptTop .topLeft .map .tipgreen {
+  font-size: 15px;
+  color: #0aad6a;
+  margin: 0 5px;
+}
+html body .passengeTraffic .ptTop .topLeft .leftTab {
+  width: 100%;
+}
+html body .passengeTraffic .ptTop .topLeft .leftTab ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html body .passengeTraffic .ptTop .topLeft .leftTab ul li {
+  float: left;
+  margin-right: 2%;
+  width: 19%;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+html body .passengeTraffic .ptTop .topLeft .leftTab ul li div:first-child {
+  font-size: 16px;
+}
+html body .passengeTraffic .ptTop .topLeft .leftTab ul li div:last-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+html body .passengeTraffic .ptTop .topLeft .leftTab ul li:last-child {
+  margin-right: 0;
+}
+html body .passengeTraffic .ptTop .topLeft .leftTab ul li.btn {
+  border: 1px solid #48c2f8;
+  border-radius: 2px;
+  color: #48c2f8;
+}
+html body .passengeTraffic .ptTop .topLeft .leftTab ul li.btnClick {
+  background-color: #48c2f8 !important;
+  color: #fff !important;
+}
+html body .passengeTraffic .ptTop .topRight {
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+}
+html body .passengeTraffic .ptTop .topRight .topRightTop {
+  width: 100%;
+  background-color: #061525;
+}
+html body .passengeTraffic .ptTop .topRight .topRightTop .header {
+  font-size: 18px;
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid #0889f2;
+  color: #0889f2;
+}
+html body .passengeTraffic .ptTop .topRight .topRightTop .bar {
+  width: 100%;
+  padding-top: 20px;
+}
+html body .passengeTraffic .ptTop .topRight .topRightBottom {
+  width: 100%;
+  background-color: #061525;
+  margin-top: 10px;
+}
+html body .passengeTraffic .ptTop .topRight .topRightBottom .header {
+  font-size: 18px;
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid #0889f2;
+  color: #0889f2;
+}
+html body .passengeTraffic .ptTop .topRight .topRightBottom .foot .box {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+html body .passengeTraffic .ptTop .topRight .topRightBottom .foot .box div:first-child {
+  font-size: 18px;
+  color: #07b2f2;
+  margin-bottom: 8px;
+}
+html body .passengeTraffic .ptTop .topRight .topRightBottom .foot .box div:last-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: #48c2f8;
+}
+html body .passengeTraffic .ptTop .topRight .topRightBottom .foot .box div:last-child label {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 2px;
+}
+html body .passengeTraffic .ptTop .topRight .topRightBottom .bir {
+  width: 100%;
+}
+html body .passengeTraffic .ptFoot {
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+}
+html body .passengeTraffic .ptFoot .footLeft {
+  width: 25%;
+  float: left;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox {
+  color: #fff;
+  padding: 0 10px 10px 10px;
+  overflow: hidden;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox .top {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox .conRow {
+  overflow: hidden;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox .conRow span:first-child {
+  font-size: 12px;
+  width: 42%;
+  text-align: right;
+  float: left;
+  margin-top: 4px;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox .conRow span:last-child {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 40%;
+  float: left;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox .conRow span:last-child label {
+  font-size: 12px;
+  margin-left: 5px;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox.leftBoxActive {
+  background-color: #0889f2;
+  border-top-left-radius: 5px;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox2 {
+  border: 1px solid #0fa8cf;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #07b2f2;
+}
+html body .passengeTraffic .ptFoot .footLeft .leftBox2:last-child {
+  border-top: none;
+  border-bottom-left-radius: 5px;
+}
+html body .passengeTraffic .ptFoot .footRight {
+  width: 74%;
+  height: 300px;
+  float: left;
+  border: 1px solid #0fa8cf;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+html body .passengeTraffic .ptFoot .footRight .rightBox {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+html body .passengeTraffic .ptFoot .footRight .rightBox .header {
+  font-size: 20px;
+  padding: 20px 0;
+  color: #b8daf5;
+}
+html body .passengeTraffic .ptFoot .footRight .rightBox .ring {
+  width: 100%;
+}
+html body .licensingStatus {
+  font-family: "microsoft yahei";
+  padding: 20px 5px 10px 20px;
+  background-color: #06101c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+html body .licensingStatus .licStaTop {
+  width: 100%;
+  margin-bottom: 10px;
+  clear: both;
+  overflow: hidden;
+}
+html body .licensingStatus .licStaTop .licStaTopLeft {
+  width: 49%;
+  float: left;
+  background-color: #061525;
+}
+html body .licensingStatus .licStaTop .licStaTopLeft .title {
+  font-size: 20px;
+  color: #07b1f3;
+  padding: 10px;
+}
+html body .licensingStatus .licStaTop .licStaTopLeft .TopLeftTable {
+  width: 100%;
+}
+html body .licensingStatus .licStaTop .licStaTopLeft .TopLeftTable td {
+  padding: 10px;
+  font-size: 14px;
+}
+html body .licensingStatus .licStaTop .licStaTopLeft .TopLeftTable td:first-child {
+  text-align: left;
+  color: #b8daf5;
+}
+html body .licensingStatus .licStaTop .licStaTopLeft .TopLeftTable td:last-child {
+  text-align: right;
+  color: #48c2f8;
+}
+html body .licensingStatus .licStaTop .licStaTopLeft .TopLeftTable td:last-child label {
+  font-size: 20px;
+  margin-right: 5px;
+}
+html body .licensingStatus .licStaTop .licStaTopRight {
+  width: 49%;
+  float: left;
+  margin-left: 2%;
+}

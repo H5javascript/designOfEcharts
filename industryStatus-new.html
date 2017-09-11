@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>行业现状</title>
+		<!--style-->
+    	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	</head>
+	<body>
+		<div class="industryStatus">
+			<div class="indStrTop">
+				<div class="indStrTopLeft">
+					<div class="leftTopBox">
+						<div class="boxHead">经营企业</div>
+						<div class="boxCon">
+							<div class="boxConHea">
+								<div class="left">
+									<label>206,197</label>
+									<label>家</label>
+								</div>
+								<div class="right red">环比6.38% ↓</div>
+							</div>
+							<div class="boxConFoot">
+								<table>
+									<tr>
+										<td rowspan="3" class="reseda">本月</td>
+									</tr>
+									<tr>
+										<td class="green">新增</td>
+										<td class="red">注销</td>
+										<td class="org">整改</td>
+									</tr>
+									<tr>
+										<td class="green">736</td>
+										<td class="red">1,198</td>
+										<td class="org">50</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="leftTopBox">
+						<div class="boxHead">营运车辆</div>
+						<div class="boxCon">
+							<div class="boxConHea">
+								<div class="left">
+									<label>506,002</label>
+									<label>辆</label>
+								</div>
+								<div class="right green">环比3.83% ↑</div>
+							</div>
+							<div class="boxConFoot">
+								<table>
+									<tr>
+										<td rowspan="3" class="reseda">本月</td>
+									</tr>
+									<tr>
+										<td class="green">新增</td>
+										<td class="red">注销</td>
+										<td class="org">停运</td>
+									</tr>
+									<tr>
+										<td class="green">3,345</td>
+										<td class="red">1,530</td>
+										<td class="org">180</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="boxFoot">
+							<table cellspacing="0" cellpadding="0">
+								<tr>
+									<td>客运</th>
+									<td>普货</th>
+									<td>危货</th>
+									<td>公交</th>
+									<td>出租</th>
+								</tr>
+								<tr>
+									<td>23,223</th>
+									<td>330,912</th>
+									<td>22,800</th>
+									<td>36,870</th>
+									<td>50,333</th>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="leftTopBox">
+						<div class="boxHead">从业资格</div>
+						<div class="boxCon">
+							<div class="boxConHea">
+								<div class="left">
+									<label>876,826</label>
+									<label>资格</label>
+								</div>
+								<div class="right red">环比1.66% ↓</div>
+							</div>
+							<div class="boxConFoot">
+								<table>
+									<tr>
+										<td rowspan="3" class="reseda">本月</td>
+									</tr>
+									<tr>
+										<td class="green">新增</td>
+										<td class="red">注销</td>
+									</tr>
+									<tr>
+										<td class="green">1,451</td>
+										<td class="red">181</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="indStrTopRight" style="height: 600px;overflow: hidden;">
+					<div id="map" style="height: 700px;margin-top: -50px;">
+						
+					</div>
+				</div>
+			</div>
+			<div class="indStrFoot">
+				<div class="indStrFootLeft">
+					<div class="footHea">
+						<span>发展趋势变化</span>
+						<div class="line"></div>
+					</div>
+					<div class="echart" id="footLeftEchart"></div>
+				</div>
+				<div class="indStrFootRight">
+					<div class="footHea">
+						<div class="title">
+							<span>数据质量(总分97.52)</span>
+							<div class="tabBut">
+								<div class="btnLeft" id="btn01">总分</div>
+								<div class="btnRight" id="btn02">异常比</div>
+							</div>
+						</div>
+						<div class="line"></div>
+					</div>
+					<div class="echart">
+						<div class="echBox">
+							<div class="img bggreen bgblueLinhei">91.68</div>
+							<p>业户</p>
+						</div>
+						<div class="echBox">
+							<div class="img bgblue blue">86.81</div>
+							<p>车辆</p>
+						</div>
+						<div class="echBox">
+							<div class="img bgred red">87.73</div>
+							<p>资格证</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script type="text/javascript" src="js/echart/echarts.js" ></script>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+	    <script type="text/javascript" src="js/require/requirejs.js" defer async="true" ></script>
+	    <script type="text/javascript" src="js/project/industryStatus.js" ></script>
+	    <script type="text/javascript" src="js/project/industryStatusMap.js" ></script>
+	</body>
+</html>
